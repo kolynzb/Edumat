@@ -1,0 +1,13 @@
+
+.adminTable{
+    display: flex;
+    justify-content: space-between;    
+    width: 70%;
+    margin: auto;
+}
+
+.adminHd{
+    text-align: center;
+    color: #8A8A8A;
+    margin: 20px 0;
+}

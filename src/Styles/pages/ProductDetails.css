@@ -1,0 +1,96 @@
+.product-details {
+  padding-top: 20vh;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.pdProductImg {
+  object-fit: contain;
+  border-radius: 20px;
+  height: 500px;
+}
+.cntdShopp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  height: 25px;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.cntdShoppingTitle {
+  font-weight: 300;
+}
+.cntdShoppingIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(39, 39, 39);
+}
+.pdLeftComp {
+  margin-top: 50px;
+}
+.pdBottomRating {
+  color: #e4c0b4;
+  display: flex;
+  font-size: 30px;
+}
+.pdLeftSect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 325px;
+}
+.pdleftDesc {
+  width: 310px;
+  margin-bottom: 10px;
+}
+.pdLeftaddProduct {
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 3px 20px;
+  border: 1px solid #c4c4c4;
+}
+.pdleftDesc {
+  font-weight: 300;
+  color: black;
+  font-size: 12px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.pdleftPrice {
+  color: #e4c0b4;
+  font-weight: 500;
+  font-size: 25px;
+}
+.pdaddToCartbtn {
+  color: rgb(36, 36, 36);
+  border: solid 1px #c4c4c4;
+  padding: 15 30px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 0.5s ease-in-out;
+  font-size: 14px;
+  font-weight: 300;
+}
+.pdaddToCartbtn:hover {
+  transform: scale(1.05);
+}
+.pdLeftSectBottom {
+  display: flex;
+  justify-content: space-between;
+  width: 325px;
+}
+.pdLeftTitle {
+  color: #242424e1;
+  margin-top: 50px;
+}
+@media screen and (max-width: 800px) {
+  .product-details {
+    flex-direction: column;
+  }
+}

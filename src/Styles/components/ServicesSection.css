@@ -1,0 +1,41 @@
+.miniCard {
+  height: 150px;
+  width: 150px;
+  background-color: #fff8f8;
+  box-shadow: 0px 3px 4px 0px #00000057;
+  color: #c4c4c4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.miniCardTitle {
+  color: #8a8a8a;
+  font-weight: 500;
+  font-size: 20px;
+}
+.miniCardSubTitle {
+  font-weight: 300;
+  font-size: 16px;
+}
+.miniCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.servicesSect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+.servicesSect svg {
+  color: #c4c4c4;
+  font-size: 30px;
+}
+
+.miniCardSubTitle {
+  font-size: small;
+}

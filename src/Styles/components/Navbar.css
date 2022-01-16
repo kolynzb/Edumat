@@ -1,0 +1,129 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  height: 12vh;
+  background: rgba(255, 255, 255, 0.596);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  box-shadow: 0px 4px 2px 0px #00000017;
+}
+.navleft,
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+.logo {
+  color: #929292;
+  font-size: 30px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.navLink {
+  font-weight: 300;
+  list-style: none;
+  color: #929292;
+  margin-right: 12px;
+}
+.navIcon {
+  color: #929292;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+}
+.ham {
+  visibility: hidden;
+}
+.navIcon,
+.navLink {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.navIcon:hover,
+.navLink:hover {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .ham {
+    visibility: visible;
+    font-size: 30px;
+  }
+  .navIcon {
+    font-size: 30px;
+  }
+  .ham2 {
+    display: none;
+  }
+
+  .hamMenu {
+    position: absolute;
+    z-index: 999999;
+    top: 0;
+    background: #f0e2df;
+    height: 100vh;
+    width: 100vw;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hamb {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .smallNav {
+    padding: 0;
+  }
+  .Navsocials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    margin-top: 30px;
+  }
+  .closeButtonNav {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #92929286;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .bar,
+  .bar2 {
+    position: absolute;
+    height: 2px;
+    background: #e9e9e9;
+    width: 60%;
+
+    transition: all 0.3s ease-in-out;
+  }
+  .bar {
+    transform: rotate(45deg);
+  }
+  .bar2 {
+    transform: rotate(-45deg);
+  }
+  .closeButtonNav:hover .bar2,
+  .closeButtonNav:hover .bar {
+    transform: rotate(0deg);
+  }
+  .closebtnNv {
+    position: absolute;
+    top: 5px;
+    right: 60px;
+  }
+}
